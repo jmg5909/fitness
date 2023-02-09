@@ -5,9 +5,37 @@
 	padding: 0;
 }
 
+html {font-size: 16px;}
+
 body {
 	font-family: "Roboto Condensed", "Noto Sans KR", sans-serif;
 	color: #fff;
 	font-size: 14px;
 	background-color: #4f0600;
+}
+
+.d-none {
+	display: none;
+}
+
+.top-bar-outer {
+	background-color: white;
+}
+
+.top-bar {
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between; /* 수평정렬: 양끝 */
+	align-items: center; /* 수직정렬: 중앙 */
+}
+
+.top-menu a {
+	text-decoration: none; /* 텍스트-꾸밈: 없음 */
+	font-size: 14px;
+	color: #666666;
+}
+
+.top-menu a:nth-child(2){
+	margin: 0 1rem;
 }
