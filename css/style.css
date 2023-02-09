@@ -36,6 +36,22 @@ body {
 	color: #666666;
 }
 
-.top-menu a:nth-child(2){
+.top-menu a:nth-child(2){ /* 두번째 a를 선택, 좌우 여백 추가 */
 	margin: 0 1rem;
 }
+
+.marketing {
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.marketing-outer {
+	background-color: white;
+}
+
+.text p {
+	color: black;
+}
+
