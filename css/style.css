@@ -85,4 +85,27 @@ body {
     top: 90px;
 }
 
+.menu-outer {
+    padding: 2.3rem 0;
+    background-color: #830e04;
+    /* background: linear-gradient( to top, #8d4343, #830e04 ); */
+    /* background: repeating-linear-gradient( #1c0c0c , #830e04, #1c0c0c); */
+}
+
+.menu {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.menu a {
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.menu a:nth-child(2){
+	margin: 0 1rem;
+}
+
 
