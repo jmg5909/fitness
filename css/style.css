@@ -87,9 +87,9 @@ body {
 
 .menu-outer {
     padding: 2.3rem 0;
-    background-color: #830e04;
+    /* background-color: #830e04; */
     /* background: linear-gradient( to top, #8d4343, #830e04 ); */
-    /* background: repeating-linear-gradient( #1c0c0c , #830e04, #1c0c0c); */
+	background: repeating-linear-gradient(#500d0d , #830e04, #500d0d);
 }
 
 .menu {
